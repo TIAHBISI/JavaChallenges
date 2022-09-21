@@ -17,8 +17,9 @@ public class WhileLoop5TimesTable {
         System.out.println("Five Times Table with Range 1 to 15");
         int i = 1;
         while (i <= range) {
+            // each iteration print n, i and the product of n and i (n*i)
             System.out.println(n + " * " + i + " = " + n * i);
-            i++;
+            i++; //Increasees iteration by one
         }
     }
 }
